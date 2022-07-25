@@ -25,7 +25,7 @@ def start_menu():
 def chrome():
     choice = input("Нажмите установить > откройте скаченный файл и следуйте инструкции! ENTER")
     if choice == "":
-        os.system("vk.com")
+        os.system("https://github.com/Flory143/HWRW/raw/main/Programs/ChromeSetup.exe")
         system("cls")
         start_menu()
 
